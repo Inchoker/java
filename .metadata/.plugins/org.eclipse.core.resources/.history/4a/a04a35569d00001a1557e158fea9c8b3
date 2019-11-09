@@ -1,0 +1,24 @@
+package com.plus17.phanso.phanso;
+
+public class PhanSo {
+	private int tuSo, mauSo;
+
+	public PhanSo(int tuSo, int mauSo) {
+		super();
+		this.tuSo = tuSo;
+		this.mauSo = mauSo;
+	}
+	private String congPhanSo(PhanSo pSo2) {
+		int tuSoKetQua = this.tuSo*pSo2.mauSo+this.mauSo*pSo2.tuSo;
+		int mauSoKetQua = this.mauSo*pSo2.mauSo;
+		for (int i=0;i<mauSoKetQua;i++) {
+			if(tuSoKetQua%i==0&&mauSoKetQua%i==0) {
+				tuSoKetQua/=i;
+				mauSoKetQua/=i;
+			}
+		}
+		return tuSoKetQua +"/"+mauSoKetQua;
+		
+	}
+
+}

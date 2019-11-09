@@ -1,0 +1,15 @@
+package com.plus17.formatcurrency.main;
+
+import com.plus17.formatcurrency.formatcurrency.FormatCurrency;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		FormatCurrency fm =new FormatCurrency(12345678);
+		System.out.println(fm.formatCurrency());
+		System.out.println(fm.demSoChuSo(123456789));
+
+	}
+
+}

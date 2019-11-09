@@ -1,0 +1,13 @@
+Refactoring.savealleditors=true
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.techja.hvhcn.dinh.Dinh"><rhs name\="com.techja.hvhcn.dinh.Dinh"/></lhs><lhs name\="com.plus17.tinhtuoi.TinhTuoi.TinhTuoi"><rhs name\="com.plus17.tinhtuoi.TinhTuoi.TinhTuoi"/></lhs><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="com.plus17.tinhsongay.thangvanam.ThangVaNam"><rhs name\="com.plus17.tinhsongay.thangvanam.ThangVaNam"/></lhs><lhs name\="com.plus17.ucnl.ucln.UCLN"><rhs name\="com.plus17.ucnl.ucln.UCLN"/></lhs><lhs name\="com.plus17.smartfinder.smartfinder.SmartFinder"><rhs name\="com.plus17.smartfinder.smartfinder.SmartFinder"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="com.plus17.numbern1.NumberN1.NumberN1"><rhs name\="com.plus17.numbern1.NumberN1.NumberN1"/></lhs><lhs name\="com.plus17.seperatefactor.seperatefactor.SeperateFactor"><rhs name\="com.plus17.seperatefactor.seperatefactor.SeperateFactor"/></lhs><lhs name\="com.plus17.phanso.phanso.PhanSo"><rhs name\="com.plus17.phanso.phanso.PhanSo"/></lhs><lhs name\="com.plus17.formatcurrency.formatcurrency.FormatCurrency"><rhs name\="com.plus17.formatcurrency.formatcurrency.FormatCurrency"/></lhs></history>
+content_assist_number_of_computers=17
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=17
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

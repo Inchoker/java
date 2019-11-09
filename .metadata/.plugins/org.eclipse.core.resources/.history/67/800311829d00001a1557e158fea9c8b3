@@ -1,0 +1,13 @@
+package com.plus17.phanso.main;
+
+import com.plus17.phanso.phanso.PhanSo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		PhanSo ps1 = new PhanSo(14, 24);
+				PhanSo ps2 = new PhanSo(12, 2)
+
+	}
+
+}

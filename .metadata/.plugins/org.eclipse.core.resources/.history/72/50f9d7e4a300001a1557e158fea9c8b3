@@ -1,0 +1,24 @@
+package com.plus17.formatcurrency.formatcurrency;
+
+public class FormatCurrency {
+	private int longMoney;
+
+	public FormatCurrency(int longMoney) {
+		super();
+		this.longMoney = longMoney;
+	}
+
+	public String formatCurrency() {
+	int soChuSo =demSoChuSo(this.longMoney);
+	
+	}
+
+	public int demSoChuSo(int longMoney) {
+		int soChuSo = 1;
+		while(longMoney !=0) {
+			longMoney/=10;
+			soChuSo +=1
+		}
+		return soChuSo;
+	}
+}

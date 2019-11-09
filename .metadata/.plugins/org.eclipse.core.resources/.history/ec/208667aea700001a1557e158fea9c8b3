@@ -1,0 +1,38 @@
+package com.plus17.formatcurrency.formatcurrency;
+
+public class FormatCurrency {
+	private double longMoney;
+
+	public FormatCurrency(double longMoney) {
+		super();
+		this.longMoney = longMoney;
+	}
+
+	public String formatCurrency() {
+		String kq = "";
+		long soChuSo = demSoChuSo(this.longMoney);
+		System.out.println(soChuSo);
+		if (soChuSo % 3 != 0) {
+			long soDu = soChuSo % 3;
+//		tinh so chia
+			double soChia = soChuSo - soDu;
+			double soChiaMoi = Math.pow(10, soChia);
+
+			double ketQuaChia = this.longMoney / soChiaMoi;
+			this.longMoney -= ketQuaChia * soChiaMoi;
+			kq += ketQuaChia;
+			kq += ",";
+			
+		}
+		return kq;
+	}
+
+	public long demSoChuSo(long longMoney) {
+		long soChuSo = 0;
+		while (longMoney != 0) {
+			longMoney /= 10;
+			soChuSo += 1;
+		}
+		return soChuSo;
+	}
+}

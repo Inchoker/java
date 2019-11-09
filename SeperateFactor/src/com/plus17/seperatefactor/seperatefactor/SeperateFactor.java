@@ -1,0 +1,22 @@
+package com.plus17.seperatefactor.seperatefactor;
+
+public class SeperateFactor {
+	private int n;
+
+	public SeperateFactor(int n) {
+		super();
+		this.n = n;
+	}
+
+	public String factor() {
+		String kq = "";
+		for (int divisor = 2; n != 1; divisor++) {
+			while (n % divisor == 0) {
+				kq += "*" + divisor;
+				n /= divisor;
+			}
+		}
+
+		return kq;
+	}
+}

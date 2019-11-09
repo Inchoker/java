@@ -1,0 +1,102 @@
+package com.plus17.numbern1.NumberN1;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class NumberN1 {
+	private int n;
+
+	public void setNumberN1(int n) {
+		this.n = n;
+	}
+
+//	boolean isContinue = true;
+//	while (isContinue==true) {
+//	}
+	public int takeNFromUser() {
+		int kq;
+		Scanner sC = new Scanner(System.in);
+		System.out.println(System.in);
+		System.out.println("Hay nhap so can tinh vao");
+		kq = sC.nextInt();
+		sC.close();
+		return kq;
+	}
+
+	public int calcSumChar() {
+		String newN = n + "";
+		int kq = 0;
+		for (int i = 0; i < newN.length(); i++) {
+//			kq+= Integer.parseInt(newN.charAt(i));
+			kq += newN.charAt(i) - '0';
+		}
+		return kq;
+	}
+
+	public void findPerfectNumber() {
+		int counter =1;
+		for (int i = 1; i < n; i++) {
+			if (calSumUoc(i) == 2 * i) {
+				System.out.println("So thoa man perfectnumber la" + i);
+				System.out.println("Voi cac uoc la" + printUoc(i));
+				counter =0;
+			} else if (i == n - 1&&counter==1) {
+				System.out.println("Khong tim duoc perfect number thoa man");
+			}
+		}
+	}
+
+	private String printUoc(int i) {
+		String kq = "";
+		ArrayList<Integer> arrayListUoc = findListUoc(i);
+		for (int counter = 0; counter < arrayListUoc.size(); counter++) {
+			kq += arrayListUoc.get(counter);
+			if (counter == arrayListUoc.size() - 1) {
+				continue;
+			} else {
+				kq += ",";
+			}
+		}
+		return kq;
+	}
+
+	private ArrayList<Integer> findListUoc(int i) {
+		ArrayList<Integer> arrayListUoc = new ArrayList<Integer>();
+		for (int k = 1; k < i; k++) {
+			if (i % k == 0) {
+				arrayListUoc.add(k);
+			}
+		}
+		return arrayListUoc;
+	}
+
+	private int calSumUoc(int i) {
+		int kq = 0;
+		ArrayList<Integer> arrayListUoc = findListUoc(i);
+		for (int counter = 0; counter < arrayListUoc.size(); counter++) {
+			kq += arrayListUoc.get(counter);
+		}
+		return kq;
+	}
+
+	public int findGCDivisor() {
+		int kq = 1;
+		int soUocToiDa = 1;
+		for (int counter = 1; counter < n; counter++) {
+			if (calSoUoc(counter) > soUocToiDa) {
+				kq = counter;
+				soUocToiDa = calcSumChar(counter)
+			}
+		}
+		System.out.println(printUoc(kq));
+		return kq;
+	}
+
+	private int calSoUoc(int counter) {
+		int kq = 0;
+		ArrayList<Integer> arrayListUoc = findListUoc(counter);
+		kq = arrayListUoc.size();
+		return kq;
+	}
+
+}
