@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		FormatCurrency fm =new FormatCurrency(12345678);
+		FormatCurrency fm =new FormatCurrency(12231241341253145L);
 		System.out.println(fm.formatCurrency());
 
 

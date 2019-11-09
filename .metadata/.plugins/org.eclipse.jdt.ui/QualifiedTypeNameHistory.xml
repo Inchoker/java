@@ -25,4 +25,7 @@
     <fullyQualifiedTypeName name="com.plus17.phanso.phanso.PhanSo"/>
     <fullyQualifiedTypeName name="com.plus17.formatcurrency.formatcurrency.FormatCurrency"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.plus17.thuvien.tailieu.TaiLieu"/>
+    <fullyQualifiedTypeName name="com.plus17.thuvien.tailieu.Sach"/>
+    <fullyQualifiedTypeName name="com.plus17.tuyensinh.thisinh.ThiSinh"/>
 </qualifiedTypeNameHistroy>
