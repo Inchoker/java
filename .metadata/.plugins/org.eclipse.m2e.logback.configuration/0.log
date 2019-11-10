@@ -22,3 +22,4 @@
 2019-11-09 16:37:53,018 [Worker-12: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2019-11-09 16:38:52,109 [ForkJoinPool.commonPool-worker-3] WARN  org.eclipse.jgit.util.FS - locking FileBasedConfig[C:\Users\lehuu\.gitconfig] failed after 5 retries
 2019-11-09 19:04:34,184 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-11-11 01:29:46,771 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
